@@ -22,6 +22,9 @@ export default function ContentList({
   fallbackItemImage,
   viewMoreText = "Read More",
 }: ContentListProps) {
+  if (contentType === "Projects") {
+    items = items.slice().reverse();
+  }
   const component = useRef(null);
   const itemsRef = useRef<Array<HTMLLIElement | null>>([]);
 
