@@ -72,6 +72,7 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
       ref={component}
+      className="overflow-x-hidden"
     >
       <div className="grid grid-cols-1 items-center md:grid-cols-2">
         <Shapes />
