@@ -30,11 +30,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="bg-slate-900">
-      <body className={clsx(urbanist.className, "relative min-h-screen")}>
+      <body
+        className={clsx(urbanist.className, "relative min-h-screen md:-mt-8")}
+      >
         <Header />
         {children}
-        <div className="background-gradient absolute inset-0 -z-50 max-h-screen" />
-        <div className="pointer-events-none absolute inset-0 -z-40 h-full bg-[url('/noisetexture.jpg')] opacity-20 mix-blend-soft-light"></div>
+        <div className="background-gradient absolute inset-0 -z-50 h-full" />
+        <div className="bg-fill pointer-events-none absolute inset-0 -z-40 h-full w-full bg-[url('/noisetexture.jpg')] opacity-20 mix-blend-soft-light"></div>
         <Footer />
         <PrismicPreview repositoryName={repositoryName} />
       </body>

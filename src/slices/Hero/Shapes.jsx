@@ -129,7 +129,7 @@ export function Shapes() {
         hello!
         <br />I{"'"}m Rudra!
         <br />
-        welcome to my portfolio ^_^
+        welcome to my portfolio ツ
       </web.h1>
       <Canvas dpr={[1, 2]} camera={{ position: [0, 0, -30], fov: 35 }}>
         <three.pointLight
