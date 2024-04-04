@@ -127,7 +127,7 @@ export function Shapes() {
         className="absolute left-1/2 top-1/3 m-0 -translate-x-1/2 -translate-y-1/2 transform p-0 text-4xl font-normal tracking-tighter text-white sm:top-1/2 sm:whitespace-nowrap md:top-1/2 md:text-6xl xl:top-1/3 xl:text-8xl"
       >
         hello!
-        <br />I{"'"}m Rudra!
+        <br />i{"'"}m rudra
         <br />
         welcome to my portfolio ツ
       </web.h1>
